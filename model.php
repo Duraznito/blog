@@ -10,10 +10,13 @@ function openConex(){
     return $conex;
 }    
  
+
+
+
 function getPosts(){	
 	$mysqli = openConex();
 	
-	$result = $mysqli->query('SELECT id, title FROM post ORDER BY id desc');	
+	$result = $mysqli->query('SELECT id, title, date, img, textintro FROM post WHERE page="1" ORDER BY id desc');	
 
 	return $result;	
 }
@@ -27,6 +30,9 @@ function getPostById($id)
 	
     return $row;
 }
+
+
+
 
 ?>
 

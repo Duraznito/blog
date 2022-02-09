@@ -16,6 +16,15 @@
 			<br>
 				<a href="../">Return to main page</a>
 			</div>
+
+
+			comentarios:         
+			<br>
+			<textarea>
+				
+			</textarea>
+			<br>
+			<button>Enviar</button>
 		</body>
 </html>
 
